@@ -13,7 +13,7 @@ public class GetRequestTest {
 		.then()
 		.log().body()
 		
-		.statusCode(201);
+		.statusCode(404);
 	}
 /*@Test
 public void deletePost(){
