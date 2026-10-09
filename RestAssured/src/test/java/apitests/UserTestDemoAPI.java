@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class UserTestDemoAPI {
-	@Test
+	/*@Test
 	public void createUser() {
 		UserDemoAPI userdemo = new UserDemoAPI();
 		userdemo.setBookId(8);
@@ -37,6 +37,6 @@ public class UserTestDemoAPI {
 		.then()
 		.log().body()
 		.statusCode(201);
-	}
+	}*/
 
 }

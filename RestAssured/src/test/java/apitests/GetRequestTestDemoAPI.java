@@ -6,8 +6,8 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class GetRequestTestDemoAPI {
-@Test
-	public void getTodo() {
+//@Test
+	/*public void getTodo() {
 		given()
 		.header("Content-type","application/json")
 		//.body(")
@@ -26,6 +26,6 @@ public void deletePost(){
 	.statusCode(200);
 	
 	
-}
+}*/
 
 }

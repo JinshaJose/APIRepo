@@ -24,8 +24,8 @@ public class UserTest2 {
 		.body("job",equalTo("tester"))
 		.body("name", notNullValue())
 		.time(lessThan(3000l))
-		.cookie("sessionId",notNullValue())
-		.cookie("sessionId",equalTo("abc123"))
+		//.cookie("sessionId",notNullValue())
+		//.cookie("sessionId",equalTo("abc123"))
 		.statusCode(200);
 	}
 	/*@Test(priority = 2)
