@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-09T12:34:55 GST" name="Default suite" finished-at="2026-10-09T12:34:58 GST" duration-ms="2886">
+  <suite started-at="2026-10-09T12:40:32 GST" name="Default suite" finished-at="2026-10-09T12:40:33 GST" duration-ms="1790">
     <groups>
     </groups>
-    <test started-at="2026-10-09T12:34:55 GST" name="Default test" finished-at="2026-10-09T12:34:58 GST" duration-ms="2886">
-      <class name="apitests.UserTest2">
-        <test-method signature="updateUser()[pri:0, instance:apitests.UserTest2@7f3b84b8]" started-at="2026-10-09T12:34:55 GST" name="updateUser" finished-at="2026-10-09T12:34:58 GST" duration-ms="2844" status="PASS">
+    <test started-at="2026-10-09T12:40:32 GST" name="Default test" finished-at="2026-10-09T12:40:33 GST" duration-ms="1790">
+      <class name="apitests.GetRequestTest">
+        <test-method signature="getTodo()[pri:0, instance:apitests.GetRequestTest@7f3b84b8]" started-at="2026-10-09T12:40:32 GST" name="getTodo" finished-at="2026-10-09T12:40:33 GST" duration-ms="1759" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateUser -->
-      </class> <!-- apitests.UserTest2 -->
+        </test-method> <!-- getTodo -->
+      </class> <!-- apitests.GetRequestTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

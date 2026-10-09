@@ -20,6 +20,6 @@ public class UserTest {
 		.post("/api/users")
 		.then()
 		.log().body()
-		.statusCode(400);
+		.statusCode(201);
 	}
 }

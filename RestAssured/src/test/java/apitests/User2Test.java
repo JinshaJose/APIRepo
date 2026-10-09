@@ -26,7 +26,7 @@ public class User2Test {
 		.time(lessThan(3000l))
 		//.cookie("sessionId",notNullValue())
 		//.cookie("sessionId",equalTo("abc123"))
-		.statusCode(400);
+		.statusCode(200);
 	}
 	/*@Test(priority = 2)
 	public void updateJob() {
