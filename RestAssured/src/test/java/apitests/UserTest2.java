@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class UserTest2 {
-	@Test(priority = 1)
+	@Test
 	public void updateUser() {
 		User2 user2 = new User2("John","tester");
 		given()
