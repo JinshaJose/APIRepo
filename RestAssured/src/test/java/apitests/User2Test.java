@@ -7,7 +7,7 @@ import user.java.User2;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class UserTest2 {
+public class User2Test {
 	@Test
 	public void updateUser() {
 		User2 user2 = new User2("John","tester");
